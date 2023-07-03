@@ -14,7 +14,7 @@ body {
     border-radius: 25px;
     margin-top: 100px;
 
-    animation: opening 1s ease 1 ;
+    animation: opening 0.3s ease 1 ;
 }
 
 
@@ -207,7 +207,11 @@ button:active {
     z-index: -1;
 }
 
-
+@media (max-width: 340px) {
+    .attribution {
+        transform: scale(0);
+    }
+}
 @media (max-width: 450px) {
     body {
         margin: 0px;
